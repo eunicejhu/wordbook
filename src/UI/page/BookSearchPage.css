@@ -1,0 +1,6 @@
+.book-search-page {
+  text-align: center;
+  min-height: 100vh;
+  background: url("../../svg/BG.svg") no-repeat;
+  background-size: cover;
+  font: 14px/20px 'Open Sans', Arial, sans-serif; }

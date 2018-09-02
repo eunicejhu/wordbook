@@ -1,0 +1,53 @@
+.pagination-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  & .arrow {
+    margin: 0 8px;
+    color: #388D95;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & .pages-wrapper {
+    min-width: 9em;
+    text-align: center;
+  }
+
+  & .page {
+    margin: 8px;
+    color: white;
+    &.current {
+      cursor: default;
+      text-align: center;
+      background-color: #c8e7ea;
+      color: #388D95;
+      padding: 4px;
+      min-width: 20px;
+      min-height: 20px;
+      display: inline-block;
+      border-radius: 50%;
+      line-height: 20px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & .prev, 
+  & .next {
+    margin: 0 8px;
+    color: #388D95;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+
+

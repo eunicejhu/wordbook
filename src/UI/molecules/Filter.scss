@@ -1,0 +1,38 @@
+.filter-wrapper {
+  position: fixed;
+  width: 13em;
+  left: 0;
+  top: 20%;
+  background-color: #317B81;
+  border-radius: 0 12px 12px 0;
+  padding: 12px;
+  max-height: 44em;
+  overflow-y: scroll;
+
+  & .label {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 0;
+    color: #b5dfe3;
+
+    label {
+      padding: 0 10px 0 0;
+      font-size: 16px;
+    }
+    button {
+      padding: 0 4px;
+      border: 0;
+      border-radius: 4px;
+      color: #317B81;
+      border: 1px solid white;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #317B81;
+        color: white;
+        border: 1px solid #b5dfe3;
+      }
+    }
+  }
+}

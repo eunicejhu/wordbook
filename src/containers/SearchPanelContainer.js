@@ -2,16 +2,16 @@ import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators} from 'redux'
 import SearchPanel from '../UI/organisms/SearchPanel'
-import { LaunchSearchAction, ChangeHitsPerPageAction, InitializeAction, ToggleFilterAction, ClearFiltersAction, ChangePageAction} from '../redux/actions'
+import { LaunchSearchAction, ChangeHitsPerPageAction, InitializeAction, ToggleFilterAction, ClearFiltersAction, ChangePageAction, InitializeWordBookAction} from '../redux/actions'
 class SearchPanelContainer extends Component {
   componentDidMount() {
-    let { initializeAction} = this.props
-    initializeAction()
+    let { initializeWordBookAction} = this.props
+    initializeWordBookAction()
   }
 
   render() {
     let { 
-      launchSearchAction, changeHitsPerPageAction, category, toggleFilterAction, clearFiltersAction, hitsPerPage, query, nbPages, page, changePageAction, filters, nbHits} = this.props
+      launchSearchAction, changeHitsPerPageAction, category, toggleFilterAction, clearFiltersAction, hitsPerPage, query, nbPages, page, changePageAction, filters, nbHits, words} = this.props
     let options = !!category ? Object.keys(category).map(key => ({ value: `${key}`, label: `${key} ${category[key]}`})) : []
     let totalResultCount = query ? nbHits : false
     
@@ -25,7 +25,8 @@ class SearchPanelContainer extends Component {
       page,
       nbHits: nbHits,
       query,
-      changePageAction
+      changePageAction,
+      words
     }
     return <SearchPanel {...childrenProps} />
   }
@@ -40,6 +41,7 @@ const mapDispatchToProps = dispatch => ({
   toggleFilterAction: bindActionCreators(ToggleFilterAction, dispatch),
   clearFiltersAction: bindActionCreators(ClearFiltersAction, dispatch),
   changePageAction: bindActionCreators(ChangePageAction, dispatch),
+  initializeWordBookAction: bindActionCreators(InitializeWordBookAction, dispatch),
   dispatch
 })
 

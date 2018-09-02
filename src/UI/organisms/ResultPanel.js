@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
-import Item from '../molecules/Item'
+import WordItem from '../molecules/WordItem'
 import Pagination from '../atoms/Pagination'
 import './ResultPanel.css'
 
 class ResultPanel extends Component {
   render() {
-    let {hits} = this.props
-    let renderSearchResult = hits && hits.map((item, index) => <Item key={index} index={index} item={item} showImage={true} showCategory={true} />)
+    let { words} = this.props
+    let renderSearchResult = words && words.map((item, index) => <WordItem key={index} index={index} item={item} />)
     return (<div className="resultpanel-wrapper">
       <div className="result">{renderSearchResult}</div>
       <div>
@@ -18,7 +18,7 @@ class ResultPanel extends Component {
 }
 
 const mapStateToProps = state => ({
-  hits: state.reducer.hits
+  words: state.reducer.words
 })
 
 export default connect(mapStateToProps)(ResultPanel)

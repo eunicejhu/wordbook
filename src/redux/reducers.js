@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 import {
-  LAUNCH_SEARCH, RECEIVE_HITS, RECEIVE_HITS_ERROR, CHANGE_HITS_PER_PAGE, RECEIVE_INITIALIZE, TOGGLE_FILTER, CLEAR_FILTER, CHANGE_PAGE
+  LAUNCH_SEARCH, RECEIVE_HITS, RECEIVE_HITS_ERROR, CHANGE_HITS_PER_PAGE, RECEIVE_INITIALIZE, TOGGLE_FILTER, CLEAR_FILTER, CHANGE_PAGE,
+  FETCH_WORD_BOOK
 } from './actionTypes'
 const initialState = {
   query: '',
@@ -10,7 +11,8 @@ const initialState = {
   nbHits: false,
   nbPages: false,
   page: 0,
-  filters: []
+  filters: [],
+  words: []
 }
 
 const reducer = (state = initialState, action) => {
@@ -55,6 +57,10 @@ const reducer = (state = initialState, action) => {
     break
     case CHANGE_PAGE: 
       return Object.assign({}, state, { page: action.page })
+    break
+
+    case FETCH_WORD_BOOK:
+      return Object.assign({}, state, {words: action.words})
     break
     default:
       return state

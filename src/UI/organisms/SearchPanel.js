@@ -9,16 +9,16 @@ import PropTypes from 'prop-types'
 
 class SearchPanel extends Component {
   render() {
-    let { launchSearchAction, changeHitsPerPageAction, options, toggleFilterAction,clearFiltersAction, nbPages, page, changePageAction, nbHits, query } = this.props
+    let { launchSearchAction, changeHitsPerPageAction, options, toggleFilterAction, clearFiltersAction, nbPages, page, changePageAction, nbHits, query, words } = this.props
     
     return (
       <div className="search-panel">
-        <Filter
+        {/* <Filter
           options={options}
           toggleFilter={toggleFilterAction}
           clearFilters={clearFiltersAction}
-        />
-        <Input action={launchSearchAction} count={nbHits} query={query} />
+        /> */}
+        {/* <Input action={launchSearchAction} count={nbHits} query={query} />
         <Slider action={changeHitsPerPageAction}
           nbPages={nbPages} />
         <div>
@@ -26,8 +26,9 @@ class SearchPanel extends Component {
             pages={nbPages} 
             current={page}
             action={changePageAction} />}
-        </div>
-        {query && <div className="count">{`${nbHits} results found`}</div>}
+        </div> */}
+        {/* {query && <div className="count">{`${nbHits} results found`}</div>} */}
+        <div className="count">{`${words.length} results found`}</div>
       </div>
     )
   }

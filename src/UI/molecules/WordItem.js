@@ -24,7 +24,7 @@ class WordItem extends Component {
     let { show } = this.state
     let { word, oxford_dic, label } = this.props.item
     let { showImage, showCategory } = this.props
-    return (<a href={oxford_dic.link} target="_blank" title={word} className={`item-wrapper ${show ? 'show' : ''}`}>
+    return (<a href={oxford_dic.link} target="" title={word} className={`item-wrapper ${show ? 'show' : ''}`}>
       <div className="word">{word}</div>
       
     </a>)

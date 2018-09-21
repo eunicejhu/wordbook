@@ -1,34 +1,40 @@
-import React, { Component } from 'react'
-import ReactImageFallback from "react-image-fallback"
-import { IMG_FAILURE_LOADING } from '../../constants'
-import './WordItem.css'
+import React, { Component } from "react";
+import ReactImageFallback from "react-image-fallback";
+import { IMG_FAILURE_LOADING } from "../../constants";
+import "./WordItem.css";
 
 class WordItem extends Component {
   constructor() {
-    super()
+    super();
     this.state = {
       show: false
-    }
+    };
   }
 
   componentDidMount() {
-    let { index } = this.props
+    let { index } = this.props;
     setTimeout(() => {
       this.setState({
         show: true
-      })
-    }, index * 100)
+      });
+    }, index * 100);
   }
 
   render() {
-    let { show } = this.state
-    let { word, oxford_dic, label } = this.props.item
-    let { showImage, showCategory } = this.props
-    return (<a href={oxford_dic.link} target="" title={word} className={`item-wrapper ${show ? 'show' : ''}`}>
-      <div className="word">{word}</div>
-      
-    </a>)
+    let { show } = this.state;
+    let { word, oxford_dic, label } = this.props.item;
+    let { showImage, showCategory } = this.props;
+    return (
+      <a
+        href={oxford_dic.link}
+        target=""
+        title={word}
+        className={`item-wrapper ${show ? "show" : ""}`}
+      >
+        <div className="word">{word}</div>
+      </a>
+    );
   }
 }
 
-export default WordItem
+export default WordItem;

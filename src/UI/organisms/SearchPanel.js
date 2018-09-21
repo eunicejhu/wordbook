@@ -1,16 +1,28 @@
-import React, {Component} from 'react'
-import Input from '../molecules/Input'
-import Slider from '../atoms/Slider'
-import Filter from '../molecules/Filter'
-import Pagination from '../atoms/Pagination'
+import React, { Component } from "react";
+import Input from "../molecules/Input";
+import Slider from "../atoms/Slider";
+import Filter from "../molecules/Filter";
+import Pagination from "../atoms/Pagination";
 
-import './SearchPanel.css'
-import PropTypes from 'prop-types'
+import "./SearchPanel.css";
+import PropTypes from "prop-types";
 
 class SearchPanel extends Component {
   render() {
-    let { launchSearchAction, changeHitsPerPageAction, options, toggleFilterAction, clearFiltersAction, nbPages, page, changePageAction, nbHits, query, words } = this.props
-    
+    let {
+      launchSearchAction,
+      changeHitsPerPageAction,
+      options,
+      toggleFilterAction,
+      clearFiltersAction,
+      nbPages,
+      page,
+      changePageAction,
+      nbHits,
+      query,
+      words
+    } = this.props;
+
     return (
       <div className="search-panel">
         {/* <Filter
@@ -30,7 +42,7 @@ class SearchPanel extends Component {
         {/* {query && <div className="count">{`${nbHits} results found`}</div>} */}
         <div className="count">{`${words.length} results found`}</div>
       </div>
-    )
+    );
   }
 }
 
@@ -44,4 +56,4 @@ class SearchPanel extends Component {
 //   page: PropTypes.number
 // }
 
-export default SearchPanel
+export default SearchPanel;

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import Select from 'react-select'
+import React, { Component } from "react";
+import Select from "react-select";
 
-import './MultiSelect.css'
+import "./MultiSelect.css";
 // const options = [
 //   { value: 'chocolate', label: 'Chocolate' },
 //   { value: 'strawberry', label: 'Strawberry' },
@@ -11,31 +11,29 @@ import './MultiSelect.css'
 const customStyles = {
   option: (base, state) => ({
     ...base,
-    backgroundColor: '#65a0a9',
-    color: 'white'
+    backgroundColor: "#65a0a9",
+    color: "white"
   }),
-  placeholder: () => ({
-
-  }),
-  control: (base) => ({
+  placeholder: () => ({}),
+  control: base => ({
     // none of react-selects styles are passed to <View />
     ...base,
-    border: '2px solid white'
+    border: "2px solid white"
     // width: '12em',
   }),
   singleValue: (base, state) => {
     const opacity = state.isDisabled ? 0.5 : 1;
-    const transition = 'opacity 300ms';
+    const transition = "opacity 300ms";
 
     return { ...base, opacity, transition };
   }
-}
+};
 class MultiSelect extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       selectedOption: []
-    }
+    };
   }
 
   // componentWillProps(nextProps) {
@@ -53,25 +51,27 @@ class MultiSelect extends Component {
   //   })
   // }
 
-  handleChange = (selectedOption) => {
-    console.log('*******',{ selectedOption })
-    let {action} = this.props
-    this.setState(()=> ({ selectedOption}))
-    action(selectedOption)
-  }
+  handleChange = selectedOption => {
+    console.log("*******", { selectedOption });
+    let { action } = this.props;
+    this.setState(() => ({ selectedOption }));
+    action(selectedOption);
+  };
   render() {
-    let { selectedOption} = this.state
-    let { options } = this.props
-    return <Select
-      style={{
-        boxShadow: 'none'
-      }}
-      isMulti
-      isSearchable
-      value={selectedOption}
-      onChange={this.handleChange}
-      options={options}
-    />
+    let { selectedOption } = this.state;
+    let { options } = this.props;
+    return (
+      <Select
+        style={{
+          boxShadow: "none"
+        }}
+        isMulti
+        isSearchable
+        value={selectedOption}
+        onChange={this.handleChange}
+        options={options}
+      />
+    );
   }
 }
-export default MultiSelect
+export default MultiSelect;

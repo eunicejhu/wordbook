@@ -7,15 +7,13 @@ import {
 import {
   LAUNCH_SEARCH,
   RECEIVE_HITS,
-  RECEIVE_HITS_ERROR,
   CHANGE_HITS_PER_PAGE,
   RECEIVE_INITIALIZE,
   TOGGLE_FILTER,
   CLEAR_FILTER,
-  CHANGE_PAGE,
-  FETCH_WORD_BOOK
+  CHANGE_PAGE
 } from "./actionTypes";
-import { WORDS, JANE_EYRE } from "./words";
+import { JANE_EYRE } from "./words";
 
 const receiveHitsAction = payload => ({
   type: RECEIVE_HITS,
@@ -28,11 +26,11 @@ const receiveInitializeAction = payload => ({
 });
 
 const queryAction = (dispatch, getState) => {
-  let { filters, hitsPerPage, page, query } = getState().reducer;
-  let searchParameters = { query, filters, hitsPerPage, page };
+  const { filters, hitsPerPage, page, query } = getState().reducer;
+  const searchParameters = { query, filters, hitsPerPage, page };
   queryWithHelper(searchParameters)
     .then(result => {
-      let payload = {
+      const payload = {
         hits: result.hits,
         nbHits: result.nbHits,
         nbPages: result.nbPages,
@@ -49,10 +47,10 @@ const queryAction = (dispatch, getState) => {
 };
 
 export const InitializeAction = () => (dispatch, getState) => {
-  let hitsPerPage = getState().reducer.hitsPerPage;
+  const { hitsPerPage } = getState().reducer;
   getCategoryAndHits(hitsPerPage)
     .then(result => {
-      let payload = {
+      const payload = {
         category: result.facets.category,
         hits: result.hits,
         nbPages: result.nbPages,
@@ -77,15 +75,15 @@ export const LaunchSearchAction = query => (dispatch, getState) => {
 export const ChangeHitsPerPageAction = hitsPerPage => (dispatch, getState) => {
   dispatch({
     type: CHANGE_HITS_PER_PAGE,
-    hitsPerPage: hitsPerPage
+    hitsPerPage
   });
   queryAction(dispatch, getState);
 };
 
-export const ToggleFilterAction = filter => (dispatch, getState) => {
+export const ToggleFilterAction = filter => dispatch => {
   toggleFilter(filter)
     .then(result => {
-      let payload = {
+      const payload = {
         hits: result.hits,
         nbPages: result.nbPages,
         page: result.page,
@@ -103,7 +101,7 @@ export const ToggleFilterAction = filter => (dispatch, getState) => {
 
 export const ClearFiltersAction = () => dispatch => {
   clearFilters().then(result => {
-    let payload = {
+    const payload = {
       hits: result.hits,
       nbPages: result.nbPages,
       page: result.page,
@@ -125,7 +123,7 @@ export const ChangePageAction = page => (dispatch, getState) => {
 };
 
 export const InitializeWordBookAction = () => dispatch => {
-  //read words from words.json
+  // read words from words.json
 
   dispatch({
     type: "FETCH_WORD_BOOK",

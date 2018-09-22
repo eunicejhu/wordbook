@@ -22,7 +22,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "test": "react-scripts test --env=jsdom --no-watch",
+    "test": "react-scripts test --env=jsdom",
+    "test:jest": "jest --bail --findRelatedTests '**/__tests__/**/*.js?(x)'",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
@@ -47,8 +48,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "npm test:jest",
+      "pre-push": "npm test:jest"
     }
   }
 }

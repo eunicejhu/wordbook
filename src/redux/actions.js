@@ -13,7 +13,7 @@ import {
   CLEAR_FILTER,
   CHANGE_PAGE
 } from "./actionTypes";
-import { JANE_EYRE } from "./words";
+import { JANE_EYRE, ELLE_ET_LUI } from "./words";
 
 const receiveHitsAction = payload => ({
   type: RECEIVE_HITS,
@@ -125,8 +125,5 @@ export const ChangePageAction = page => (dispatch, getState) => {
 export const InitializeWordBookAction = () => dispatch => {
   // read words from words.json
 
-  dispatch({
-    type: "FETCH_WORD_BOOK",
-    words: JANE_EYRE
-  });
+  dispatch({ type: "FETCH_WORD_BOOK", words: ELLE_ET_LUI });
 };

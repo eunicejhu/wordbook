@@ -36,6 +36,7 @@
     "format": "prettier --write '**/*.{js,jsx}'"
   },
   "devDependencies": {
+    "babel-plugin-typecheck": "^3.9.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "^3.0.1",
@@ -48,8 +49,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test:jest",
-      "pre-push": "npm test:jest"
+      "pre-commit": "npm run test:jest",
+      "pre-push": "npm run test:jest"
     }
   }
 }

@@ -27,7 +27,7 @@ class WordItem extends Component {
     return (
       <a
         href={oxford_dic.link}
-        target=""
+        target="_blank"
         title={word}
         className={`item-wrapper ${show ? "show" : ""}`}
       >

@@ -2114,3 +2114,1334 @@ export const JANE_EYRE = [
     }
   }
 ];
+
+export const ELLE_ET_LUI = [
+  {
+    id: 0,
+    word: "Prérogatives",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Prérogatives&l=francais&culture="
+    }
+  },
+  {
+    id: 1,
+    word: "Ôté",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Ôté&l=francais&culture="
+    }
+  },
+  {
+    id: 2,
+    word: "Ficelé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Ficelé&l=francais&culture="
+    }
+  },
+  {
+    id: 3,
+    word: "Dénudée",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Dénudée&l=francais&culture="
+    }
+  },
+  {
+    id: 4,
+    word: "Raffolera",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Raffolera&l=francais&culture="
+    }
+  },
+  {
+    id: 5,
+    word: "Vedette",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Vedette&l=francais&culture="
+    }
+  },
+  {
+    id: 6,
+    word: "Grisaille",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Grisaille&l=francais&culture="
+    }
+  },
+  {
+    id: 7,
+    word: "cocue",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=cocue&l=francais&culture="
+    }
+  },
+  {
+    id: 8,
+    word: "Véracité",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Véracité&l=francais&culture="
+    }
+  },
+  {
+    id: 9,
+    word: "Cendre",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Cendre&l=francais&culture="
+    }
+  },
+  {
+    id: 10,
+    word: "Idiotie",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Idiotie&l=francais&culture="
+    }
+  },
+  {
+    id: 11,
+    word: "Morfondre",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Morfondre&l=francais&culture="
+    }
+  },
+  {
+    id: 12,
+    word: "Broyer",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Broyer&l=francais&culture="
+    }
+  },
+  {
+    id: 13,
+    word: "Fugace",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Fugace&l=francais&culture="
+    }
+  },
+  {
+    id: 14,
+    word: "Centuple",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Centuple&l=francais&culture="
+    }
+  },
+  {
+    id: 15,
+    word: "Frayer",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Frayer&l=francais&culture="
+    }
+  },
+  {
+    id: 16,
+    word: "Pimbêche",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Pimbêche&l=francais&culture="
+    }
+  },
+  {
+    id: 17,
+    word: "Perchée",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Perchée&l=francais&culture="
+    }
+  },
+  {
+    id: 18,
+    word: "Balourd",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Balourd&l=francais&culture="
+    }
+  },
+  {
+    id: 19,
+    word: "Courtise",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Courtise&l=francais&culture="
+    }
+  },
+  {
+    id: 20,
+    word: "Agglutinés",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Agglutinés&l=francais&culture="
+    }
+  },
+  {
+    id: 21,
+    word: "Gazinière",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Gazinière&l=francais&culture="
+    }
+  },
+  {
+    id: 22,
+    word: "Ruisselèrent",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Ruisselèrent&l=francais&culture="
+    }
+  },
+  {
+    id: 23,
+    word: "Apaise",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Apaise&l=francais&culture="
+    }
+  },
+  {
+    id: 24,
+    word: "Accapare",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Accapare&l=francais&culture="
+    }
+  },
+  {
+    id: 25,
+    word: "enquit",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=enquit&l=francais&culture="
+    }
+  },
+  {
+    id: 26,
+    word: "Congédié",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Congédié&l=francais&culture="
+    }
+  },
+  {
+    id: 27,
+    word: "Franchir",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Franchir&l=francais&culture="
+    }
+  },
+  {
+    id: 28,
+    word: "Têtu",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Têtu&l=francais&culture="
+    }
+  },
+  {
+    id: 29,
+    word: "Tétanisé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Tétanisé&l=francais&culture="
+    }
+  },
+  {
+    id: 30,
+    word: "Dédicaçant",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Dédicaçant&l=francais&culture="
+    }
+  },
+  {
+    id: 31,
+    word: "Enfonçait",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Enfonçait&l=francais&culture="
+    }
+  },
+  {
+    id: 32,
+    word: "Côtoyer",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Côtoyer&l=francais&culture="
+    }
+  },
+  {
+    id: 33,
+    word: "Bonhomie",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Bonhomie&l=francais&culture="
+    }
+  },
+  {
+    id: 34,
+    word: "Écorchait",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Écorchait&l=francais&culture="
+    }
+  },
+  {
+    id: 35,
+    word: "Sensiblerie",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Sensiblerie&l=francais&culture="
+    }
+  },
+  {
+    id: 36,
+    word: "Subite",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Subite&l=francais&culture="
+    }
+  },
+  {
+    id: 37,
+    word: "Suffocante",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Suffocante&l=francais&culture="
+    }
+  },
+  {
+    id: 38,
+    word: "Hiberna",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Hiberna&l=francais&culture="
+    }
+  },
+  {
+    id: 39,
+    word: "Tanière",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Tanière&l=francais&culture="
+    }
+  },
+  {
+    id: 40,
+    word: "Solennel",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Solennel&l=francais&culture="
+    }
+  },
+  {
+    id: 41,
+    word: "Sabbatique",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Sabbatique&l=francais&culture="
+    }
+  },
+  {
+    id: 42,
+    word: "Accable",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Accable&l=francais&culture="
+    }
+  },
+  {
+    id: 43,
+    word: "Frugal",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Frugal&l=francais&culture="
+    }
+  },
+  {
+    id: 44,
+    word: "Panaché",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Panaché&l=francais&culture="
+    }
+  },
+  {
+    id: 45,
+    word: "Provenance",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Provenance&l=francais&culture="
+    }
+  },
+  {
+    id: 46,
+    word: "Guère",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Guère&l=francais&culture="
+    }
+  },
+  {
+    id: 47,
+    word: "Circonspect",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Circonspect&l=francais&culture="
+    }
+  },
+  {
+    id: 48,
+    word: "Magistral",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Magistral&l=francais&culture="
+    }
+  },
+  {
+    id: 49,
+    word: "Stratagème",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Stratagème&l=francais&culture="
+    }
+  },
+  {
+    id: 50,
+    word: "Immatriculé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Immatriculé&l=francais&culture="
+    }
+  },
+  {
+    id: 51,
+    word: "Bénit",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Bénit&l=francais&culture="
+    }
+  },
+  {
+    id: 52,
+    word: "Recroquevillée",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Recroquevillée&l=francais&culture="
+    }
+  },
+  {
+    id: 53,
+    word: "Marraine",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Marraine&l=francais&culture="
+    }
+  },
+  {
+    id: 54,
+    word: "Parrain",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Parrain&l=francais&culture="
+    }
+  },
+  {
+    id: 55,
+    word: "Attablé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Attablé&l=francais&culture="
+    }
+  },
+  {
+    id: 56,
+    word: "Lâcher",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Lâcher&l=francais&culture="
+    }
+  },
+  {
+    id: 57,
+    word: "Usurpateur",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Usurpateur&l=francais&culture="
+    }
+  },
+  {
+    id: 58,
+    word: "Confrère",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Confrère&l=francais&culture="
+    }
+  },
+  {
+    id: 59,
+    word: "Papotons",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Papotons&l=francais&culture="
+    }
+  },
+  {
+    id: 60,
+    word: "Épater",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Épater&l=francais&culture="
+    }
+  },
+  {
+    id: 61,
+    word: "Horreur",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Horreur&l=francais&culture="
+    }
+  },
+  {
+    id: 62,
+    word: "Turbulences",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Turbulences&l=francais&culture="
+    }
+  },
+  {
+    id: 63,
+    word: "Calvaire",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Calvaire&l=francais&culture="
+    }
+  },
+  {
+    id: 64,
+    word: "Paraphraser",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Paraphraser&l=francais&culture="
+    }
+  },
+  {
+    id: 65,
+    word: "Virées",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Virées&l=francais&culture="
+    }
+  },
+  {
+    id: 66,
+    word: "Balades",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Balades&l=francais&culture="
+    }
+  },
+  {
+    id: 67,
+    word: "Alliance",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Alliance&l=francais&culture="
+    }
+  },
+  {
+    id: 68,
+    word: "Rauque",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Rauque&l=francais&culture="
+    }
+  },
+  {
+    id: 69,
+    word: "Interloquée",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Interloquée&l=francais&culture="
+    }
+  },
+  {
+    id: 70,
+    word: "Inventive",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Inventive&l=francais&culture="
+    }
+  },
+  {
+    id: 71,
+    word: "Grimper",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Grimper&l=francais&culture="
+    }
+  },
+  {
+    id: 72,
+    word: "Exténuée",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Exténuée&l=francais&culture="
+    }
+  },
+  {
+    id: 73,
+    word: "Fourneaux",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Fourneaux&l=francais&culture="
+    }
+  },
+  {
+    id: 74,
+    word: "Cuistot",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Cuistot&l=francais&culture="
+    }
+  },
+  {
+    id: 75,
+    word: "Crétin",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Crétin&l=francais&culture="
+    }
+  },
+  {
+    id: 76,
+    word: "Grignoter",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Grignoter&l=francais&culture="
+    }
+  },
+  {
+    id: 77,
+    word: "Bluffait",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Bluffait&l=francais&culture="
+    }
+  },
+  {
+    id: 78,
+    word: "Abstenir",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Abstenir&l=francais&culture="
+    }
+  },
+  {
+    id: 79,
+    word: "Succombes",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Succombes&l=francais&culture="
+    }
+  },
+  {
+    id: 80,
+    word: "Faufila",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Faufila&l=francais&culture="
+    }
+  },
+  {
+    id: 81,
+    word: "Ébahi",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Ébahi&l=francais&culture="
+    }
+  },
+  {
+    id: 82,
+    word: "Entreprendre",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Entreprendre&l=francais&culture="
+    }
+  },
+  {
+    id: 83,
+    word: "Précipitamment",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Précipitamment&l=francais&culture="
+    }
+  },
+  {
+    id: 84,
+    word: "Effondré",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Effondré&l=francais&culture="
+    }
+  },
+  {
+    id: 85,
+    word: "Bévue",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Bévue&l=francais&culture="
+    }
+  },
+  {
+    id: 86,
+    word: "Chambouler",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Chambouler&l=francais&culture="
+    }
+  },
+  {
+    id: 87,
+    word: "Déplaire",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Déplaire&l=francais&culture="
+    }
+  },
+  {
+    id: 88,
+    word: "Escapade",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Escapade&l=francais&culture="
+    }
+  },
+  {
+    id: 89,
+    word: "Culot",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Culot&l=francais&culture="
+    }
+  },
+  {
+    id: 90,
+    word: "Blottit",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Blottit&l=francais&culture="
+    }
+  },
+  {
+    id: 91,
+    word: "Ressassé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Ressassé&l=francais&culture="
+    }
+  },
+  {
+    id: 92,
+    word: "Crachin",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Crachin&l=francais&culture="
+    }
+  },
+  {
+    id: 93,
+    word: "Rauque",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Rauque&l=francais&culture="
+    }
+  },
+  {
+    id: 94,
+    word: "Solliciter",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Solliciter&l=francais&culture="
+    }
+  },
+  {
+    id: 95,
+    word: "Intrusif",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Intrusif&l=francais&culture="
+    }
+  },
+  {
+    id: 96,
+    word: "Saisir",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Saisir&l=francais&culture="
+    }
+  },
+  {
+    id: 97,
+    word: "Toussota",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Toussota&l=francais&culture="
+    }
+  },
+  {
+    id: 98,
+    word: "Baie",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Baie&l=francais&culture="
+    }
+  },
+  {
+    id: 99,
+    word: "Contrebas",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Contrebas&l=francais&culture="
+    }
+  },
+  {
+    id: 100,
+    word: "Conciliant",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Conciliant&l=francais&culture="
+    }
+  },
+  {
+    id: 101,
+    word: "Trapue",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Trapue&l=francais&culture="
+    }
+  },
+  {
+    id: 102,
+    word: "Fredonne",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Fredonne&l=francais&culture="
+    }
+  },
+  {
+    id: 103,
+    word: "Rime",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Rime&l=francais&culture="
+    }
+  },
+  {
+    id: 104,
+    word: "Letton",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Letton&l=francais&culture="
+    }
+  },
+  {
+    id: 105,
+    word: "Merdouille",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Merdouille&l=francais&culture="
+    }
+  },
+  {
+    id: 106,
+    word: "Fléchette",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Fléchette&l=francais&culture="
+    }
+  },
+  {
+    id: 107,
+    word: "Ayatollah",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Ayatollah&l=francais&culture="
+    }
+  },
+  {
+    id: 108,
+    word: "cageot",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=cageot&l=francais&culture="
+    }
+  },
+  {
+    id: 109,
+    word: "Denrées",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Denrées&l=francais&culture="
+    }
+  },
+  {
+    id: 110,
+    word: "Panetière",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Panetière&l=francais&culture="
+    }
+  },
+  {
+    id: 111,
+    word: "Victuailles",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Victuailles&l=francais&culture="
+    }
+  },
+  {
+    id: 112,
+    word: "Juré",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Juré&l=francais&culture="
+    }
+  },
+  {
+    id: 113,
+    word: "Craché",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Craché&l=francais&culture="
+    }
+  },
+  {
+    id: 114,
+    word: "Offusqué",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Offusqué&l=francais&culture="
+    }
+  },
+  {
+    id: 115,
+    word: "Rivés",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Rivés&l=francais&culture="
+    }
+  },
+  {
+    id: 116,
+    word: "Fouler",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Fouler&l=francais&culture="
+    }
+  },
+  {
+    id: 117,
+    word: "Évasif",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Évasif&l=francais&culture="
+    }
+  },
+  {
+    id: 118,
+    word: "Pathétique",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Pathétique&l=francais&culture="
+    }
+  },
+  {
+    id: 119,
+    word: "Cuistot",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Cuistot&l=francais&culture="
+    }
+  },
+  {
+    id: 120,
+    word: "Pétards",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Pétards&l=francais&culture="
+    }
+  },
+  {
+    id: 121,
+    word: "Dispense",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Dispense&l=francais&culture="
+    }
+  },
+  {
+    id: 122,
+    word: "Dévoilé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Dévoilé&l=francais&culture="
+    }
+  },
+  {
+    id: 123,
+    word: "Grattent",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Grattent&l=francais&culture="
+    }
+  },
+  {
+    id: 124,
+    word: "Loustic",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Loustic&l=francais&culture="
+    }
+  },
+  {
+    id: 125,
+    word: "Quoique",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Quoique&l=francais&culture="
+    }
+  },
+  {
+    id: 126,
+    word: "Concède",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Concède&l=francais&culture="
+    }
+  },
+  {
+    id: 127,
+    word: "Hypothétique",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Hypothétique&l=francais&culture="
+    }
+  },
+  {
+    id: 128,
+    word: "Radin",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Radin&l=francais&culture="
+    }
+  },
+  {
+    id: 129,
+    word: "Convalescence",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Convalescence&l=francais&culture="
+    }
+  },
+  {
+    id: 130,
+    word: "Frimeur",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Frimeur&l=francais&culture="
+    }
+  },
+  {
+    id: 131,
+    word: "Pique-assiette",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Pique-assiette&l=francais&culture="
+    }
+  },
+  {
+    id: 132,
+    word: "Effleuré",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Effleuré&l=francais&culture="
+    }
+  },
+  {
+    id: 133,
+    word: "Exigeait",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Exigeait&l=francais&culture="
+    }
+  },
+  {
+    id: 134,
+    word: "Érudit",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Érudit&l=francais&culture="
+    }
+  },
+  {
+    id: 135,
+    word: "Dévolu",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Dévolu&l=francais&culture="
+    }
+  },
+  {
+    id: 136,
+    word: "Dénichée",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Dénichée&l=francais&culture="
+    }
+  },
+  {
+    id: 137,
+    word: "Planche",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Planche&l=francais&culture="
+    }
+  },
+  {
+    id: 138,
+    word: "Indéfectible",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Indéfectible&l=francais&culture="
+    }
+  },
+  {
+    id: 139,
+    word: "Fastueusement",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Fastueusement&l=francais&culture="
+    }
+  },
+  {
+    id: 140,
+    word: "Conquête",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Conquête&l=francais&culture="
+    }
+  },
+  {
+    id: 141,
+    word: "Acuité",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Acuité&l=francais&culture="
+    }
+  },
+  {
+    id: 142,
+    word: "Magestique",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Magestique&l=francais&culture="
+    }
+  },
+  {
+    id: 143,
+    word: "Imbéciles",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Imbéciles&l=francais&culture="
+    }
+  },
+  {
+    id: 144,
+    word: "Détonant",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Détonant&l=francais&culture="
+    }
+  },
+  {
+    id: 145,
+    word: "Rapatant",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Rapatant&l=francais&culture="
+    }
+  },
+  {
+    id: 146,
+    word: "Repères",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Repères&l=francais&culture="
+    }
+  },
+  {
+    id: 147,
+    word: "Chimère",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Chimère&l=francais&culture="
+    }
+  },
+  {
+    id: 148,
+    word: "Anéantis",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Anéantis&l=francais&culture="
+    }
+  },
+  {
+    id: 149,
+    word: "Grotesque",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Grotesque&l=francais&culture="
+    }
+  },
+  {
+    id: 150,
+    word: "Inclinable",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Inclinable&l=francais&culture="
+    }
+  },
+  {
+    id: 151,
+    word: "Somnifère",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Somnifère&l=francais&culture="
+    }
+  },
+  {
+    id: 152,
+    word: "Opinant",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Opinant&l=francais&culture="
+    }
+  },
+  {
+    id: 153,
+    word: "Chuchoter",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Chuchoter&l=francais&culture="
+    }
+  },
+  {
+    id: 154,
+    word: "Percé",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Percé&l=francais&culture="
+    }
+  },
+  {
+    id: 155,
+    word: "Prophète",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Prophète&l=francais&culture="
+    }
+  },
+  {
+    id: 156,
+    word: "Songea",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Songea&l=francais&culture="
+    }
+  },
+  {
+    id: 157,
+    word: "Désinvolture",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Désinvolture&l=francais&culture="
+    }
+  },
+  {
+    id: 158,
+    word: "Calot",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Calot&l=francais&culture="
+    }
+  },
+  {
+    id: 159,
+    word: "Turbulences",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Turbulences&l=francais&culture="
+    }
+  },
+  {
+    id: 160,
+    word: "Frissonna",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Frissonna&l=francais&culture="
+    }
+  },
+  {
+    id: 161,
+    word: "Grommela",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Grommela&l=francais&culture="
+    }
+  },
+  {
+    id: 162,
+    word: "Époustouflante",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Époustouflante&l=francais&culture="
+    }
+  },
+  {
+    id: 163,
+    word: "Lectorat",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Lectorat&l=francais&culture="
+    }
+  },
+  {
+    id: 164,
+    word: "Gâté",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Gâté&l=francais&culture="
+    }
+  },
+  {
+    id: 165,
+    word: "Pouffer",
+    oxford_dic: {
+      link:
+        "https://www.larousse.fr/dictionnaires/rechercher?q=Pouffer&l=francais&culture="
+    }
+  }
+];
